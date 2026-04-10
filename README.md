@@ -112,6 +112,10 @@ Alerts were generated for suspicious activities such as:
 
 Further analysis in Splunk confirmed these activities and provided clear visibility into the attack pattern through logs and visualizations.
 
+![Splunk Logs](screenshots/splunk_logs.png)
+
+
+
 ## MITRE ATT&CK Mapping
 
 ### Execution
