@@ -129,8 +129,6 @@ Further analysis in Splunk confirmed these activities and provided clear visibil
 - SIEM analysis confirmed abnormal activity patterns
 - The activity was classified as a potential backdoor attack
 
-## Screenshots
-
 
 ## Screenshots
 
