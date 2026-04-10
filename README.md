@@ -131,17 +131,40 @@ Further analysis in Splunk confirmed these activities and provided clear visibil
 
 ## Screenshots
 
-![Architecture](screenshots/architecture.png)
-![Reverse_shell](screenshots/reverse_shell.png)
-![Backdoor Execution](screenshots/BackdoorExecution.png)
-![Registry Persistence](screenshots/registry.png)
-![Scheduled Task](screenshots/schtasks.png)
-![Backdoor Execution](screenshots/BackdoorExecution.png)
-![EventDetails](screenshots/eventdetails.png)
-![Detection Rule](screenshots/detectionrule.png)
-![Alerts](screenshots/alerts_triggered.png)
-![Splunk Logs](screenshots/splunk_logs.png)
-![Dashboard](screenshots/dashboard.png)
 
+## Screenshots
+
+###  Architecture
+![Architecture](screenshots/architecture.png)
+
+###  Reverse Shell (Attacker Access)
+![Reverse Shell](screenshots/reverse_shell.png)
+
+###  Backdoor Execution
+![Backdoor Execution](screenshots/BackdoorExecution.png)
+
+###  Persistence - Registry
+![Registry Persistence](screenshots/registry.png)
+
+###  Persistence - Scheduled Task
+![Scheduled Task](screenshots/schtasks.png)
+
+###  Persistence - Service
+![Service Creation](screenshots/service.png)
+
+###  Event Details (EDR)
+![Event Details](screenshots/eventdetails.png)
+
+###  Detection Rule
+![Detection Rule](screenshots/detection_rule.png)
+
+###  Alerts Triggered
+![Alerts](screenshots/alerts_triggered.png)
+
+###  Splunk Log Analysis
+![Splunk Logs](screenshots/splunk_logs.png)
+
+###  Dashboard Visualization
+![Dashboard](screenshots/dashboard.png)
 
 
