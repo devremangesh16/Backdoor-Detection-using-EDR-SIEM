@@ -34,7 +34,9 @@ After gaining access, the attacker established persistence to maintain long-term
 
 ![Registry Persistence](screenshots/registry.png)
 
+
 ![Scheduled Task](screenshots/schtasks.png)
+
 
 ![Service Creation](screenshots/service.png)
 
