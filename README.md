@@ -72,6 +72,27 @@ When the payload was executed and persistence mechanisms were established, LimaC
 
 ![Alerts Triggered](screenshots/alerts_triggered.png)
 
+## Endpoint Forensics & Investigation Tools
+- Performed endpoint-level analysis to validate suspicious activity detected by EDR  
+- Analyzed running processes and identified abnormal behavior of `notmalware.exe`  
+- Investigated persistence mechanisms using registry, startup entries, and scheduled tasks  
+- Examined system and Sysmon logs to track process execution and activity  
+- Verified findings using command-line tools (`tasklist`, `wmic`, `netstat`)  
+- Correlated endpoint investigation results with SIEM logs for complete attack visibility
+
+### Process Explorer - Suspicious Process Tree
+![Process Explorer](screenshots/process_explorer.png)
+
+### Autoruns - Persistence Detection
+![Autoruns](screenshots/autoruns.png)
+
+### Sysmon - Process & Network Event Logs
+![Sysmon](screenshots/sysmon.png)
+
+### Command-Line Investigation (tasklist / wmic)
+![CLI Investigation](screenshots/cli_analysis.png)
+
+
 ## SIEM Analysis (Splunk)
 
 Logs collected from the endpoint were ingested into Splunk for further analysis and visualization of the attack activity.
@@ -113,8 +134,6 @@ Alerts were generated for suspicious activities such as:
 Further analysis in Splunk confirmed these activities and provided clear visibility into the attack pattern through logs and visualizations.
 
 ![Splunk Logs](screenshots/splunk_logs.png)
-
-
 
 ## MITRE ATT&CK Mapping
 
@@ -164,6 +183,18 @@ Further analysis in Splunk confirmed these activities and provided clear visibil
 
 ###  Alerts Triggered
 ![Alerts](screenshots/alerts_triggered.png)
+
+### Process Explorer - Suspicious Process Tree
+![Process Explorer](screenshots/process_explorer.png)
+
+### Autoruns - Persistence Detection
+![Autoruns](screenshots/autoruns.png)
+
+### Sysmon - Process & Network Event Logs
+![Sysmon](screenshots/sysmon.png)
+
+### Command-Line Investigation (tasklist / wmic)
+![CLI Investigation](screenshots/cli_analysis.png)
 
 ###  Splunk Log Analysis
 ![Splunk Logs](screenshots/splunk_logs.png)
